@@ -199,7 +199,6 @@ Pusat pengelolaan data website secara terintegrasi.
 
 # 📲 Cara Menjalankan Project
 
-```bash
 git clone <repository-url>
 # pindahkan ke folder htdocs
 # jalankan Apache & MySQL
