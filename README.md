@@ -199,11 +199,11 @@ Pusat pengelolaan data website secara terintegrasi.
 
 # 📲 Cara Menjalankan Project
 
-git clone <repository-url>
- pindahkan ke folder htdocs
- jalankan Apache & MySQL
- import database
- buka localhost/project-folder
+## git clone <repository-url>
+## pindahkan ke folder htdocs
+## jalankan Apache & MySQL
+## import database
+## buka localhost/project-folder
 
 ## 🧩 Struktur Sistem
 
