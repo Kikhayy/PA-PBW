@@ -77,6 +77,37 @@ Dengan adanya website ini, Bukit Fajar Lestari dapat memperluas jangkauan promos
 
 ---
 
+## 🚀 Panduan Instalasi (Localhost)
+
+Berikut adalah langkah-langkah untuk menjalankan aplikasi ini secara lokal:
+
+1. *Clone Repository*
+   bash
+   git clone https://github.com/username/PA-PBW-Kelompok-C2.git
+   
+2. *Pindahkan ke Server Lokal*
+   Pindahkan folder project ke direktori htdocs (jika menggunakan XAMPP) atau www (jika menggunakan Laragon).
+3. *Impor Database*
+   - Buka phpMyAdmin (biasanya di http://localhost/phpmyadmin)
+   - Buat database baru dengan nama bukit_fajar_lestari
+   - Pilih menu *Import* dan unggah file bukit_fajar_lestari.sql yang ada di root folder project.
+4. *Konfigurasi Koneksi*
+   Pastikan konfigurasi di config/koneksi.php sudah sesuai dengan kredensial database lokal Anda (biasanya user: root dan password kosong).
+5. *Jalankan Aplikasi*
+   Buka browser dan akses URL: http://localhost/PA-PBW-Kelompok-C2 (atau sesuai nama folder Anda).
+
+---
+
+## 🔐 Kredensial Login Admin (Demo)
+
+Gunakan kredensial berikut untuk mencoba fitur admin (Panel Pengelola):
+
+- *URL:* http://localhost/.../panel-pengelola/login.php
+- *Username:* admin (sesuaikan dengan isi database)
+- *Password:* admin123 (sesuaikan dengan isi database)
+
+---
+
 ## 👥 Tim Pengembang
 
 Proyek Akhir — Pemrograman Berbasis Web
@@ -91,6 +122,5 @@ Muhammad Romadhoni Alfatih - 2409116104
 
 Muhamad Irpan Santoso - 2409116119
 
----
 
 <p align="center"> Gantengan Mana:  Daus atau Mi Ayam </p>
